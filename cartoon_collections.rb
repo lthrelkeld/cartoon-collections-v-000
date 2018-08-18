@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)
   !entries_greater_than_4.empty?
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
