@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)
   calls.each do |call|
     entries_greater_than_4 << call if call.length > 4
   end
-  entries_greater_than_4.empty?
+  !entries_greater_than_4.empty?
 end
 
 def find_the_cheese# code an argument here
